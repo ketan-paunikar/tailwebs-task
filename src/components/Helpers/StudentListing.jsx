@@ -56,11 +56,11 @@ const StudentListing = () => {
       studentData.map((student, i) =>
         student.id === id
           ? {
-              ...student,
-              name: editFormik.values.name || individualData.name,
-              subject: editFormik.values.subject || individualData.subject,
-              marks: editFormik.values.marks || individualData.marks,
-            }
+            ...student,
+            name: editFormik.values.name || individualData.name,
+            subject: editFormik.values.subject || individualData.subject,
+            marks: editFormik.values.marks || individualData.marks,
+          }
           : student
       )
     );
@@ -79,6 +79,8 @@ const StudentListing = () => {
     };
     setStudentData([...studentData, newStudent]);
     setOpen(false);
+    formik.resetForm({});
+    Toaster("success", "Added Successfully");
   };
 
   //delete student data from list
@@ -201,7 +203,7 @@ const StudentListing = () => {
           },
         }}
       >
-        <div className="pt-12 px-[120px]">
+        <div className="p-12 px-[120px]">
           <form onSubmit={formik.handleSubmit}>
             <div>
               <p>Name</p>
@@ -306,7 +308,7 @@ const StudentListing = () => {
           },
         }}
       >
-        <div className="pt-14 px-[120px]">
+        <div className="p-12 px-[120px]">
           <form onSubmit={editFormik.handleSubmit}>
             <div>
               <p>Name</p>
