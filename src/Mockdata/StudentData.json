@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "subject": "Math",
+    "marks": 89
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "subject": "Math",
+    "marks": 89
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "subject": "Math",
+    "marks": 89
+  },
+  {
+    "id": 4,
+    "name": "Bob Brown",
+    "subject": "Math",
+    "marks": 89
+  },
+  {
+    "id": 5,
+    "name": "Emily Davis",
+    "subject": "Math",
+    "marks": 54
+  },
+  {
+    "id": 6,
+    "name": "Michael Wilson",
+    "subject": "Math",
+    "marks": 89
+  },
+  {
+    "id": 7,
+    "name": "Sarah Lee",
+    "subject": "Math",
+    "marks": 89
+  },
+  {
+    "id": 8,
+    "name": "David Martinez",
+    "subject": "Math",
+    "marks": 89
+  },
+  {
+    "id": 9,
+    "name": "Olivia Rodriguez",
+    "subject": "Math",
+    "marks": 89
+  }
+]
