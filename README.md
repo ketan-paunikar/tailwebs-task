@@ -27,4 +27,4 @@ react hooks, redux, toastify for messages, formic, yup validation, react-router,
 
 ### Implemented Functionality: 
 
-Add User, Delete User, Edit user, 404PageNotFound(Try with ifferent path).
+Add User, Delete User, Edit user, 404PageNotFound(Try with different path).
