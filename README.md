@@ -6,7 +6,7 @@ https://tailwebs-task.vercel.app/
 
 ## To install project loacally
 
-###Cloning the git repo
+### Cloning the git repo
 Open your terminal or command prompt.
 Navigate to the directory where you want to clone the repository.
 	git clone [<repository_url> ](https://github.com/ketan-paunikar/tailwebs-task.git)
